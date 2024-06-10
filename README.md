@@ -11,11 +11,15 @@ https://spark.apache.org/docs/latest/api/python/index.html
  
    Data  Transformation
    SQL - TABLE ,DATABASE,VIEW
-                              SPARK SQL
+
+   
+                            SPARK SQL
                                  ↓           
                           HIVE META STORE 
                                   ↓        
                            AZURE DATA LAKE 
+
+                           
 
 In Azure data lake we have stored the data (csv,json,folders)
 If we want to  use spark -> table ,Data base we should use (Hive Meta store) 
